@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<div id="demos" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+<div class="floating-box"><img src="assets/img/otaku.jpg"></div>
+  </div>
+</div>
+
+
+
+<div id="jeux" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Jeux
+        </h4>
+      </div>
+      <div class="modal-body">
+           <section id="ext_menu-4">  
+      <div id="container">
+        <h1 id="chi">Entrer un chiffre (1 à 9)</h1>
+        <br>
+        <input id= "reponse" placeholder="Entrer un nombre de 1 à 9" type="number">
+        <br>
+        <br>
+        <button id = "button" class="btn btn-default">Reponse
+        </button>
+        <br>
+        <br>
+        <h3 id="essaye"></h3>
+        <h2 id="resultat"></h2>
+      </div>
+    </section>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div id="calculatrice" class="modal fade" role="dialog">
+
+    <!-- Modal content-->
+
+        <div id="calculator">
+  <form name="cal">
+  <input class="entrer" type="text" name="entrer" maxlength="8" readonly="readonly" placeholder="0"><br>
+  <table>
+    <tr>
+       <td><input class="button btn-default btn" type="button" value="7" onclick="cal.entrer.value+='7'"></td>
+       <td><input class="button btn-default btn" type="button" value="8" onclick="cal.entrer.value+='8'"></td>
+       <td><input class="button btn-default btn" type="button" value="9" onclick="cal.entrer.value+='9'"></td>
+       <td><input class="button btn-danger btn" type="button" value="c" onclick="cal.entrer.value=''"></td>
+    </tr>
+    <tr>
+       <td><input class="button btn-default btn" type="button" value="4" onclick="cal.entrer.value+='4'"></td>
+       <td><input class="button btn-default btn" type="button" value="5" onclick="cal.entrer.value+='5'"></td>
+       <td><input class="button btn-default btn" type="button" value="6" onclick="cal.entrer.value+='6'"></td>
+       <td><input class="button btn-warning btn" type="button" value="+" onclick="cal.entrer.value+='+'"></td>
+    </tr>
+    <tr>
+       <td><input class="button btn-default btn" type="button" value="1" onclick="cal.entrer.value+='1'"></td>
+       <td><input class="button btn-default btn" type="button" value="2" onclick="cal.entrer.value+='2'"></td>
+       <td><input class="button btn-default btn" type="button" value="3" onclick="cal.entrer.value+='3'"></td>
+       <td><input class="button btn-info btn" type="button" value="-" onclick="cal.entrer.value+='-'"></td>
+    </tr>
+    <tr>
+       <td><input class="button btn-default btn" type="button" value="*" onclick="cal.entrer.value+='*'"></td>
+       <td><input class="button btn-default btn" type="button" value="0" onclick="cal.entrer.value+='0'"></td>
+       <td><input class="button btn-default btn" type="button" value="/" onclick="cal.entrer.value+='/'"></td>
+       <td><input class="button btn-success btn" type="button" value="=" onclick="cal.entrer.value=eval(cal.entrer.value)"></td>
+    </tr>
+  </table>
+  </form>
+</div>
+</body>
+</html>

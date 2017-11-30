@@ -1,0 +1,126 @@
+body{
+	background-color:blanchedalmond!important;
+}
+.rond{
+	border-radius:60%;
+	height: 100px;
+	width: 100px;
+	background-color: black!important
+}
+.s1{
+	background-color:aquamarine;
+}
+.menu{
+  margin-top: 25px;
+	margin-left: 15px
+}
+
+.hahaha{
+	background-color: #536DFE;
+}
+
+.container{
+	margin-top: 250px;
+}
+
+#moii{
+	width: 150px;
+	height: 150px;
+	border-radius: 60px;
+}
+
+
+
+div li{
+	display: inline-block;
+  font-size: 20px;
+	margin: 50px;
+	padding: 0px;
+}
+
+.rond{
+	margin-top: 20px;
+	height: 100px;
+	width: 100px;
+	border-radius: 60%;
+}
+#tab1{
+	float:left;
+	left: 100px;
+}
+
+#tab2{
+	float: right;
+	right: 50px;
+}
+
+.font{
+	background-color: lightblue;
+}
+
+#soratra{
+	color: black;
+	text-align: center;
+	font-size: 19px;
+	border: 2px solid blue;
+	height: 250px;
+	width: 950px;
+	float: right;
+	font-family: chiller;
+}
+.io{
+	color: black;
+	font-size: 20px;
+}
+
+.mp{
+	height: 450px;
+	width: 450px;
+	float: right;
+	right: 50px;
+}
+
+.calc{
+	width: 350px;
+	background-color: #01579B;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	border-radius: 25px;
+	padding: 40px 15px 30px 40px;}
+
+input {
+	margin:2px;
+	line-height:2;
+	background-color: white;
+	color: black;
+	font-family: tahoma;
+	font-size: 2px;
+}
+
+
+.form{
+	width: 285px;
+ 	height: 30px; 
+ 	padding: 20px;
+ 	border-radius: 5px;
+ 	font-size: 30px;
+ 	border-radius:5px;
+ 	background-color: #F5F5F5;
+ }
+
+
+.bouton{
+	margin-top: 10px;
+	border: 2px double black;
+	border-radius: 5px;
+	width: 70px;
+	height: 45px;
+	font-size: 10px; 
+	color: black;
+	background-color:#607D8B;
+}
+
+td{
+	margin-right:5px;
+}

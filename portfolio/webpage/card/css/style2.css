@@ -1,0 +1,17 @@
+img{
+  margin:  10px;
+  width: 320px;
+  height: 460px;
+  box-shadow: 0 08px 8px rgba(0,0,0,0.8);
+ 
+}
+div img{
+  margin-left: 30px;
+}
+img{
+  display: inline-block;
+}
+.back{
+background-color: transparent;
+
+}
