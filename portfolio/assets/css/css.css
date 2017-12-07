@@ -120,6 +120,7 @@ a:hover,a:active{
 	list-style:none;
 	margin:0;padding:5px 0
 
+
 }
 
 
@@ -191,6 +192,10 @@ a:hover,a:active{
 	margin-top: 8px;
 }
 .apropos{
-	margin-left: 19%;
+	border-radius: 12px;
+	height: 760px;
+	width: 660px;
+	margin-right: auto;
+	margin-left: 15%;
 	margin-top: 45px;
 }
